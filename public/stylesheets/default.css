@@ -84,6 +84,6 @@ div#content    {position:absolute; background-color: white; width:800px;  margin
 div#content a { text-decoration:none}
 div#logo      { width:240px; margin-left: auto; margin-right: auto; margin-bottom:70px; margin-top:75px; }
 div#content p { margin:0; margin-bottom: 0.3em; text-align:center; color:#4d4d4d; }
-div#content p.last { margin-bottom: 2em }  
-div#content p.last { margin-bottom: 2em }  
+div#content p.first { margin-bottom: 2em }  
+div#content p.last  { margin-bottom: 2em }  
 div#footer {}
