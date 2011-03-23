@@ -77,13 +77,15 @@ BDO[DIR="rtl"]  { direction: rtl; unicode-bidi: bidi-override }
   ul, ol, dl    { page-break-before: avoid }
 }
 
-body{ background: url("images/bg.png") repeat-x; background-repeat: repeat-x}
-div#header {height:50px}
-div#container {}
-div#content    {position:absolute; background-color: white; width:800px;  margin-left:250px; margin-right:250px; -moz-border-radius: 15px; border-radius: 15px; -moz-box-shadow: 5px 5px 5px #737373; box-shadow: 5px 5px 5px #737373 }
-div#content a { text-decoration:none}
-div#logo      { width:240px; margin-left: auto; margin-right: auto; margin-bottom:70px; margin-top:75px; }
-div#content p { margin:0; margin-bottom: 0.3em; text-align:center; color:#4d4d4d; }
-div#content p.first { margin-bottom: 2em }  
-div#content p.last  { margin-bottom: 2em }  
-div#footer {}
+body                { font-family:Verdana,HelveticaNeue,Helvetica,Arial,sans-serif; font-size: 62.5%;}
+body                { background: url("images/bg.png") repeat-x; background-repeat: repeat-x}
+div#header          { height:50px}
+div#container       { }
+div#content         { font-size: 1.2em; position:absolute; background-color: white; width:800px;  margin: 0 250px 0 256px; }
+div#content         { -moz-border-radius: 15px; border-radius: 15px; -moz-box-shadow: 5px 5px 5px #737373; box-shadow: 5px 5px 5px #737373 }
+div#content a       { text-decoration:none}
+div#logo            { width:240px; margin-left: auto; margin-right: auto; margin-bottom:70px; margin-top:75px; }
+div#content p       { margin:0; margin-bottom: 0.3em; text-align:center; color:#4d4d4d; }
+div#content p.first { margin-bottom: 2em ; font-size: 1.2em;}
+div#content p.last  { margin-bottom: 2em }
+div#footer          { }
