@@ -1,21 +1,29 @@
-body                 { font-family:Verdana,HelveticaNeue,Helvetica,Arial,sans-serif; font-size: 62.5%;}
-body                 { background: url("images/bg.png") repeat-x; background-repeat: repeat-x}
-div#header           { height:50px}
-div#content          { font-size: 1.2em; background-color: #fdfdff; width:800px; margin: 5% auto; padding: 1px; }
-div#content div#logo { width:240px; margin: 75px auto 70px auto; }
-div#content a        { text-decoration: none}
-div#content p        { margin:0; margin-bottom: 0.3em; text-align:center; color:#4d4d4d; }
-div#content p.first  { margin-bottom: 2em ; font-size: 1.2em;}
-div#content p.last   { margin-bottom: 2em }
+body                     { font-family:HelveticaNeue,Verdana,Helvetica,Arial,sans-serif; font-size: 62.5%;}
+body                     { background: url("images/bg.png") repeat-x; background-repeat: repeat-x}
+div#header               { height:50px}
+a                        { color: #1691CD; text-decoration: none }
+a:hover                  { color: #2EAEDC; }
+div#content p.message    { color: #666; }
+div#content              { font-size: 1.2em; background-color: #fdfdff; width:920px; margin: 5% auto 2em auto; padding: 1px; }
+div#content div#logo     { width: 400px; margin: 4em auto 2em auto; }
+div#content p            { font-size: 1.1em; margin:0; margin-bottom: 2em; text-align:center; color:#4d4d4d; }
+div#content p.first      { font-size: 1.6em; }
+div#content p.last       { font-size: 1em; }
+
+#social-networks         { display:block; width:920px; margin:0px auto 2em auto; text-align:right; vertical-align:top; color: #aaa; }
+#facebook                { margin-right: 15px; }
+
+.sn-bt                   { -moz-opacity:0.3; -webkit-opacity:0.3; opacity:0.3; }
+.sn-bt:hover             { -moz-opacity:1  ; -webkit-opacity:1  ; opacity:1  ; }
 
 
 .round-and-shadow    { 
   -moz-border-radius:    15px; 
   -webkit-border-radius: 15px; 
   border-radius:         15px;
-  -moz-box-shadow:    1px 3px 20px #737373;
-  -webkit-box-shadow: 1px 3px 20px #737373;
-  box-shadow:         1px 3px 20px #737373;
+  -moz-box-shadow:    1px 3px 17px #737373;
+  -webkit-box-shadow: 1px 3px 17px #737373;
+  box-shadow:         1px 3px 17px #737373;
   /* For IE 8 */
   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#737373')";
   /* For IE 5.5 - 7 */
